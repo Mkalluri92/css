@@ -1,0 +1,69 @@
+<!-- 
+    3 ways of defining css styles
+    1.) Inline  (as a element attribute)
+        For perticular to that element
+    2.) Internal (inside head)
+        For multiple elements
+    3.) External ( as a separate file)
+        Used in for to apply same styles across different htmls
+ -->
+
+<html>
+    <head>
+        <title>
+            Different ways of using CSS
+        </title>
+
+        <style>
+            /* targetting all p elements */
+            p {
+                color: red;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            /* targetting all spans with classname green */
+            span.green {
+                color: green;
+            }
+
+            /* targetting id */
+            #span3 {
+                font-style: italic;
+                color: blueviolet;
+            }
+        </style>
+
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+
+    <body>
+        <!-- 
+            Long hand notation
+            style="border-color: black; border-width: 1px; border-style: solid;"
+            can be converted into
+            style="border: black 1px solid;"
+         -->
+        <div style="border: 2px solid black; 
+                    text-align: center; 
+                    width: 40%; 
+                    margin: auto;  
+                    overflow: scroll;
+                    background-color: #3b5998">
+            
+            <p>This is a paragraph1</p>
+            <p>This is a paragraph2</p>
+            <span class="green">This is span1</span>
+            <span class="green">This is span2</span>
+            <span id="span3">This is span3</span>
+            <h1>This is h1</h1>
+            <h1>This is h2</h1>
+
+            <button>Login</button>
+
+            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/gf6iHxsw8zm.png" alt="">
+
+        </div>
+    </body>
+</html>
