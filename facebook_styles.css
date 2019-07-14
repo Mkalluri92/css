@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #3b5998;
+    height: 78px;
+}
+
+.image {
+    width: 50%;
+    display: inline-block;
+}
+
+#fblogo {
+    margin-top: 18;
+    margin-left: 112;
+    width: 170; 
+    height: 30;
+}
+
+.details {
+    width: 40%;
+    display: inline-block;
+    float: right; 
+}
+
+#details_table{
+   color: white;
+}
+
+.datasize {
+    width: 150px;
+    height: 23px;
+}
+
+.buttonsize{
+    width: 60px;
+    height: 24px
+}
