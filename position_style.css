@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    margin: 0px;
+    position:relative;
+}
+
+#try1 {
+    background-color: blue;
+    position:fixed;
+    margin:30px
+    
+
+    
+}
+    
+
+#try2 {
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+#try3 {
+    background-color: orange;
+    position:fixed;
+    top: 30px;
+}
