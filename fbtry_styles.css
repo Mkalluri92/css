@@ -1,64 +1,177 @@
 body {
     margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.menubar{
+    background-color: #3b5998;
+    width: 1308px;
+    height: 83px
 }
 
 .header {
-    background-color: #3b5998;
-    height: 82px;
+    
+    width: 980px;
+    height: 65px;
     position: relative;
+    margin-left: 164px;
+    margin-right: 164px;
+    padding-top: 13px;
+
 }
 
 .image {
     display:inline-block;
     position: relative;
-    top: 30px;
-    left: 162px;
+    width: 170px;
+    height: 55px;
 }
 
 #fblogo {
     width: 170px; 
-    height: 32px;
+    height: 34px;
+    margin-top: 17px;
 }
+
 
 .details {
     display: inline-block;
     position: absolute;
-    left: 800px;
-    top: 7px;
+    width: 392px;
+    height: 65px;
+    right: 0px;
+    top: 13px
+}
+
+.tab {
+    border-spacing: 1px;
 }
 
 .fonttype {
-    color: white;
-    font-size: 15;
-    padding-left: 15px;
+    color: #fff;
+    width: 164px;
+    height: 16.88px;
+    padding: 0px 0px 0px 12px;
+}
+
+.fonttype2 {
+    color: #fff;
+    width: 164px;
+    height: 16.88px;
+    padding: 0px 0px 0px 13px;
+    
+}
+
+.logcred {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 2px;
+    font-family: inherit;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+.col2 {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    font-family: inherit;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+.splcolor {
+    color: #9cb4d8;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-top: 4px;
+    font-family: inherit;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+.boxdet {
+    width: 176px;
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 1px;
+}
+
+.buttontype {   
+    width: 50px;
+    height: 24px;
+}
+
+.forgottype {
+    color: #fff;
+    padding: 5px 2px 0px 9px;
 }
 
 .datasize {
-    width: 150px;
-    height: 23px;
-    margin-left: 12px;
+    height: 21px;
+    border: 0px;
+    border-color: #1d2a5b;
+    margin: 0;
+    padding: 2px 2px 3px 4px;
+    width: 148px;
+    margin-top: 2px;
+
+}
+
+.boxdet2 {
+    width: 176px;
+    height: 24px;
+    padding: 1px 1px 1px 14px;
+}
+
+.logbutton{
+    width: 84px;
+    height: 24px;
+    padding: 0px 0px 0px 14px;
 }
 
 .buttonsize{
-    width: 60px;
-    height: 23px;
-    background-color: rgb(66, 103, 178);
+    width: 48px;
+    height: 22px;
+    background-color: #4267b2;
     color: white;
-    border-color: rgb(66, 103, 178);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    border: #29487d;
+    padding: 2px 2px 3px 2px;
+    font-family: inherit;
+    margin-top: 3px;
+    margin-left: 0px;
 }
 
 
 .body {
-    background-color:rgb(231, 233, 240);
+    /*background-color: linear-gradient(white, #D3D8E8,rgb(231, 233, 240));
+    background-color:rgb(231, 233, 240); */
+    background-image: linear-gradient(white, rgb(211, 216, 232));
     height: 680;
 }
 
+.main {
+    margin-left: 164px;
+    margin-right: 164px;
+}
+
+.fbwords {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
 .pplimage {
-    margin-left: 160px;
     width: 35%;
     display: inline-block;
     position: relative;
-    top: 43px;
 }
 
 .bodyfont {
@@ -71,30 +184,35 @@ body {
     height: 195px;
 }
 
+
 .newaccount {
-    margin-top: 20px;
-    margin-left: 160px;
     display: inline-block;
     position: absolute;
+    left: 720px;
+    top: 82px;
 }
 
 #create {
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 600;
     color: #333;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: inherit;
 }
 
 .namesize {
-    width: 197px;
-    height: 45px;
+    width: 194px;
+    height: 39px;
     border-radius: 5px;
     border-color: #bdc7d8;
+    background-color: white;
+    border: 1px solid #ccd0d5;
+    padding: 11px 10px 8px 9px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-size: 18px;
-    padding-left: 8px;
+    font-family: inherit;
+    color: #999;
 }
 
 /* :-ms-input-placeholder {  Internet Explorer 10-11 
@@ -107,60 +225,121 @@ body {
 */
 
 .freedet {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-bottom: 21px;
+}
+
+.freewords {
+    color: #1d2129;
+    font-size: 19px;
 }
 
 .bodydet {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    width: 400px;
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    margin-left: 24px;
 }
 
+.name{
+    margin-left: 24px;
+    margin-bottom: 10px;
+    margin-right: 164px;
+}
+.fname {
+    display: inline-block;
+    position: relative;
+    width: 194px;
+    height: 39px;
+}
+
+.lname {
+    display: inline-block;
+    position: absolute;
+    margin-left: 11px;
+    width: 194px;
+    height: 39x;
+}
+
+
+
 .det {
-    margin-top: 5px;
+    margin-top: 6px;
     margin-bottom: 5px;
+    margin-left: 24px;
 }
 
 .maildet {
-    width: 415px;
-    height: 45px;
+    width: 398px;
+    height: 39px;
     border-radius: 5px;
     border-color: #bdc7d8;
+    background-color: white;
+    border: 1px solid #ccd0d5;
+    padding: 11px 10px 8px 9px;
 }
 
 .bdayfont {
     color: #90949c;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 22px;
     margin-bottom: 5px;
+    margin-left: 24px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.dob {
-    width: 186px;
-    height: 34px;
-}
 
 .day {
     width: 56px;
     height: 30px;
+    background-color: #fff;
+    color: #1c1e21;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #ccd0d5;
+    
 }
 
 .month {
     width: 69px;
     height: 30px;
+    background-color: #fff;
+    color: #1c1e21;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #ccd0d5;
+    margin-left: -4.5px;
 }
 
 .year {
     width: 61px;
     height: 30px;
+    background-color: #fff;
+    color: #1c1e21;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #ccd0d5;
+    margin-left: -4.5px;
 }
 
+.gendet {
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+.genderfont {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+   
+}
 .genderdet {
-    width: 280px;
-    height: 30px;
-    margin-top: 10px;
+    margin-left: 4px;
+    margin-top: 11px;
+    
 }
 
 .sexdet {
@@ -168,53 +347,75 @@ body {
     height: 1em;
 }
 
-.genfont {
-    
-    font-size: 22px;
+.sexfont {
+    vertical-align: middle;
+    color: #1d2129;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 1px;
+    margin-right: 12.8px;
+    margin-left: -1.5px;
+    font-family: inherit;
 }
 
 .condition {
-    margin-top: 10px;
-    margin-right: 330px
+    width: 316px;
+    height: 42px;
+    margin-top: 17px;
+    margin-left: 24px;
+    line-height: 1.34;
+    margin-bottom: 11px;
+}
+
+.termfont {
+    color: #385898;
+    cursor: pointer;
 }
 
 .lastdet {
     color: #777;
-    font-size: 12px;
-    width: 316px;
+    font-size: 11px;
 }
 
 .signup {
-    margin-top: 25px;
-    margin-left: 0px;
+    width: 194px;
+    height: 39px;
+    margin-left: 24px;
+    margin-top: 20px;
 }
 
 .signbutton {
-    font-size: 19px;
+    font-size: 18px;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
     font-weight: bold !important;
-    width: 212px;
-    height: 45px;
+    width: 192px;
+    height: 40px;
     padding: 8px;
     border-radius: 5px;
+    background: linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
     border-color: #3b6e22 #3b6e22 #2c5115;
-    color: white;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    cursor: pointer;
 }
 
 .duppage {
-    margin-top: 40px;
+    margin-top: 36px;
+    margin-left: 24px;
 }
 
 .page {
     color: #385898;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .cel {
     color: #666;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 
