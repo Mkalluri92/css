@@ -6,24 +6,30 @@ body {
 
 #try1 {
     background-color: blue;
-    position:fixed;
-    margin:30px
-    
-
-    
+    position:relative;
+    height: 78px;
 }
-    
+
+#inside1{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    display: inline-block;
+}
+
+#inside2{
+
+    display: inline-block;
+}
 
 #try2 {
     background-color: pink;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin: 10px;
+
     
 }
 
 #try3 {
     background-color: orange;
-    position:fixed;
-    top: 30px;
+    margin: 10px;
 }
