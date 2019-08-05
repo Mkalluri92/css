@@ -1,0 +1,860 @@
+body {
+    overflow: hidden;
+}
+
+.gmail {
+    position: relative;
+}
+
+.header {
+    display: flex;
+}
+
+.part1{
+    flex-grow: 1.75;
+}
+
+.part2 {
+
+    flex-grow: 1.75;
+    padding-left: 100px;
+}
+
+.part3 {
+    flex-grow: 1.75;
+}
+
+.bars {
+    margin-left: 4px;
+    margin-top: 2px;
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    height: 43px;
+}
+
+.barsize {
+    font-size: 18px;
+    color: #5f6368;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.bars:hover {
+    background-color:  rgb(224, 223, 223);
+    width: 44px;
+    height: 44px;
+    border-radius: 189px;
+}
+
+.gmaillogo {
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: 5px;
+}
+
+.logoimg {
+    width: 109px;
+    height: 38px;
+}
+
+.searchbar {
+    display: inline-block;
+    position: relative;
+}
+
+.searchimg {
+    display: inline-block;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search {
+    padding-top: 11px;
+    padding-left: 12px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.searchimg:hover {
+    background-color: rgb(224, 223, 223);
+    width: 40px;
+    height: 40px;
+    border-radius: 187px;
+}
+
+.searchsize {
+    font-size: 16px;
+    color: rgb(119, 115, 115);
+    left: 246px;
+    width: 722px;
+    height: 48px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #f1f3f4;
+    padding-left: 55px;
+    padding-top: 5px;
+    font: Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.selectimg {
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.select {
+    padding-top: 10px;
+    padding-left: 16px;
+    text-align: center;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.select:hover {
+    background-color: rgb(224, 223, 223);
+    width: 12px;
+    height: 31px;
+    border-radius: 147px;
+}
+
+.question {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 2px;
+    font-size: 0.65em; 
+    color: #5f6368;
+    width: 50px;
+    height: 40px;
+}
+
+.ques {
+    cursor: pointer;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.ques:hover {
+    background-color: rgb(224, 223, 223);
+    width: 30px;
+    height: 30px;
+    border-radius: 147px;
+}
+
+.apps {
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 1px;
+    width: 40px;
+    height: 40px;
+}
+
+.appsearch {
+    padding-left: 12px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.appsearch:hover {
+    background-color: rgb(224, 223, 223);
+    width: 30px;
+    height: 30px;
+    border-radius: 147px;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.iconname {
+    color: white;
+    padding: 7px 9px 7px 9px;
+    background-color: #679f38;
+    font-size: 16px;
+    border-radius: 242px;
+}
+
+hr {
+    margin: 1px;
+    border-color: rgb(224, 223, 223);
+}
+
+.main {
+    display: block;
+}
+
+.body {
+    display: inline-block;
+    position: relative;
+    left : 240px;
+    right: 50px;
+}
+
+.options {
+    width: 980px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.selectbox {
+    width: 50px;
+    height: 31px;
+    display: inline-block;
+    position: relative;;
+}
+
+.selectoption {
+    font-size: 0.60em;
+    color: rgb(100, 98, 98);
+    display: inline-block;
+    position: relative;
+    width: 22px;
+    margin: 0px;
+}
+
+.selectsize {
+    padding: 10px 7px;
+    cursor: pointer;
+}
+
+.selectsize:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    color: rgb(100, 98, 98);
+    top: -3px;
+    left: 0px;
+    margin: 0px;
+}
+
+.dropsize {
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.dropsize:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    
+}
+
+.refresh {
+    display: inline-block;
+    color: rgb(136, 135, 135);
+    width: 35px;
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: -1.5px;
+    font-size: 0.5em
+}
+
+.refreshbutton{
+    padding-top: 12px;
+    padding-left: 11px;
+    cursor: pointer;
+}
+
+.refreshbutton:hover {
+    background-color: rgb(241, 241, 241);
+    width: 30px;
+    height: 30px;
+    border-radius: 176px;
+}
+
+.readoption {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 40px;
+    color: rgb(136, 135, 135);
+    left: 5px;
+    top: -1px;
+}
+
+.readsize {
+    padding-left: 16px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.readsize:hover{
+    background-color: rgb(241, 241, 241);
+    width: 24px;
+    height: 28px;
+    border-radius: 176px;
+}
+
+.mailcount {
+    color: rgb(114, 111, 111);
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    left: 574px;
+    top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+}
+
+.count {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.count:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.nextmail {
+    display: inline-block;
+    position: relative;
+    left: 565px;
+    width: 40px;
+    height: 40px;
+    color: rgb(114, 111, 111);
+}
+
+.mailnext {
+    padding-left: 15px;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+.mailnext:hover{
+    background-color: rgb(241, 241, 241);
+    width: 29px;
+    height: 31px;
+    border-radius: 176px;
+}
+
+.mails {
+    display: inline-block;
+    position: relative;
+    left: 560px;
+    width: 50px;
+    height: 40px;
+    color: rgb(114, 111, 111);
+}
+
+.mailsnext {
+    padding-left: 15px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+
+.mailsnext:hover{
+    background-color: rgb(241, 241, 241);
+    width: 28px;
+    height: 31px;
+    border-radius: 176px;
+}
+
+.keyboard {
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    width: 50px;
+    height: 40px;
+    color: rgb(114, 111, 111);
+    font-size: 0.90em;
+}
+
+.keysize {
+    padding: 12px 6px;
+    cursor: pointer;
+}
+
+.keysize:hover {
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+.dropshape {
+    display: inline-block;
+    position: relative;
+    left: 520px;
+    width: 40px;
+    height: 30px;
+    font-size: 0.80em;
+    color: rgb(114, 111, 111);
+    top: -6px;
+}
+
+.drop {
+    padding: 12px 6px;
+}
+
+.drop:hover {
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.settings {
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    width: 40px;
+    height: 30px;
+    color: rgb(114, 111, 111);
+    font-size: 1.2em;
+}
+
+.settingsize{
+    cursor: pointer;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+.settingsize:hover{
+    background-color: rgb(241, 241, 241);
+    width: 31px;
+    height: 30px;
+    border-radius: 176px;
+}
+
+.menubar {
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    width: 230px;
+    height: 605px;
+}
+
+.compose {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .25px;
+    margin-top: 15px;
+    color: #3c4043;
+    background-color: #fff;
+    height: 40px;
+    border: 1px solid rgb(230, 228, 228);
+    width: 135px;
+    border-radius: 24px;
+    box-shadow: 1px 1px 1px 1px rgb(219, 217, 217);
+}
+
+.compose {
+    cursor: pointer;
+}
+
+.compose:hover {
+    background-color:  rgb(246, 246, 246);
+    border: 1px solid rgb(246, 245, 245);
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+}
+
+.composeimg {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.composemsg {
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    font-weight: bold;
+}
+
+.inbox {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    background-color: #fce8e6;
+    border-radius: 0px 16px 16px 0px;;
+    height: 35px;
+}
+
+.inboximg {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 35px;
+    height: 25px;
+}
+
+.inboxmsg {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    left: -2px;
+    width: 60px;
+    height: 25px;
+    color: #e0493b;
+    font-weight: bold;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+}
+
+.starred {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    height: 35px;
+    cursor: pointer;
+}
+
+.starred:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.starimg {
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 25px;
+    width: 30px;
+}
+
+.starmsg {
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    width: 50px;
+}
+
+.snoozed {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    height: 35px;
+    cursor: pointer;
+}
+
+.snoozed:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.snoozeimg {
+    display: inline-block;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 25px;
+    width: 30px;
+}
+
+.snoozemsg {
+    display: inline-block;
+    position: relative;
+    padding-top: 8px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    width: 50px;
+}
+
+.sent {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    height: 35px;
+    cursor: pointer;
+}
+
+.sent:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.sentimg {
+    display: inline-block;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 25px;
+    width: 30px;
+}
+
+.sentmsg {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    padding-top: 5px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    width: 50px;
+}
+
+.draft {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    height: 35px;
+    cursor: pointer;
+}
+
+.draft:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.draftimg {
+    display: inline-block;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 25px;
+    width: 30px;
+}
+
+.draftmsg {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    padding-top: 3px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: .875rem;
+    width: 50px;
+}
+
+.more {
+    position: relative;
+    top: 13px;
+    left: -13px;
+    color: #3c4043;
+    height: 35px;
+    cursor: pointer;
+}
+
+.more:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.moreimg {
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 30px;
+}
+
+.moremsg {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: -3px;
+    padding-top: 10px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    width: 50px;
+}
+
+.linestart {
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+.chat {
+    position: relative;
+    left: 20px;
+    top: 25px;
+    height: 35px;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.personimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.onlinestatus {
+    display: inline-block;
+    position: relative;
+    left: -9px;
+    font-size: 0.6em;
+    color: green;
+    cursor: pointer;
+}
+.pname {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    font-size: 13px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+
+.namedrop {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    cursor: pointer;
+    font-size: 0.65em;
+    cursor: pointer;
+    color: rgb(170, 165, 165);
+}
+
+.namedrop:hover {
+    color: black;
+}
+ 
+.plusoption {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 35px;
+    left: 55px;
+    top: -8px;
+    color: rgb(170, 165, 165);
+}
+
+.plussign:hover {
+    width: 24px;
+    height: 23px;
+    border-radius: 149px;
+    background-color: rgb(241, 241, 241);
+}
+
+.plussign {
+    padding-left: 11px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.chatline {
+    position: absolute;
+    width: 220px;
+    margin-top: 2px;
+    color: rgb(170, 165, 165);
+}
+
+.chatspace {
+    position: relative;
+    left: 70px;
+    top: 40px;
+    width: 60px;
+	height: 72px;
+    background: url('./images/imageall.png') no-repeat -655px -108px;
+}
+
+.chatwords {
+    position: absolute;
+    left: 50px;
+    margin-top: 70px;
+    font-size: 13px;
+}
+
+.chaticons {
+    position: absolute;
+}
+
+.iconline {
+    margin-top: 160px;
+    width: 200px;
+    position: relative;
+    left: -30px;
+}
+
+.people {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.pplsize {
+    padding-left: 15px;
+    color:  rgb(170, 165, 165);
+    cursor: pointer;
+}
+
+.pplsize:hover {
+    color: black;
+}
+
+.chatsymbol {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -1px;
+    background-color: rgb(230, 227, 227);
+    width: 35px;
+    height: 30px;
+}
+
+.cht {
+    background: url('./images/imageall.png') no-repeat -179px -188px;
+	width: 14px;
+    height: 17px; 
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.phone {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -9px;
+    color:  rgb(170, 165, 165);
+    cursor: pointer;
+}
+
+.phone:hover {
+    color: black;
+}
+
+.sidepanel {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    width: 30px;
+    border-left: 1px solid  rgb(228, 228, 228);
+    height: 600px;
+}
+
+.calendar {
+    position: absolute;
+}
+
+
+
