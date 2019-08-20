@@ -1011,7 +1011,7 @@ hr {
     position: relative;
     top: -1px;
 }
-.mainmail {
+#mainmail {
     position: relative;
     margin-left: 10px;
     cursor: pointer;
@@ -1065,23 +1065,36 @@ hr {
     left: -27px;
     padding-left: 12px;
     padding-top: 10px;
+    width: 150px;
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .mailsub {
     display:inline-block;
     position: relative;
-    left: 100px;
+    left: 0px;
+    width: 130px;
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .mailmsg {
     display: inline-block;
     position: relative;
-    left: 110px;
+    left: 50px;
+    width: 400px;
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
+
 
 .time {
     display: inline-block;
     position: relative;
-    right: -300px;
+    right: -150px;
     top: 3px;
 }
