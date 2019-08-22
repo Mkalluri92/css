@@ -73,27 +73,10 @@ var novels=[
     }
 ];
 
-var content="";
+var template=$("#handleBooks").html();
 
-for (var i=0; i<novels.length; i++){
-    content +='<div id="novelBook">'+
-                '<hr>'+
-                '<div class="book">'+
-                    '<img class="imgsize" src="'+novels[i].novelImg+'">'+
-                '</div>'+
-                '<div class="details">'+
-                    '<div class="novelTitle">'+
-                        '<span>'+novels[i].title+'</span>'+
-                    '</div>'+
-                    '<div class="author">'+
-                        '<span>by </span><span class="authorName">'+novels[i].author+'</span>'+
-                    '</div>'+
-                    '<div class="cost">'+
-                    '<span><sup>$</sup>'+novels[i].price+'<sup>65</sup></span>'+
-                    '</div>'+
-                '</div>'+
-            '</div>';
-        }
+var tempCompile= Handlebars.compile(template);
 
+var content= tempCompile(novels);
 
 $("#bookRow").html(content);
