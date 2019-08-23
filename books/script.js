@@ -86,6 +86,8 @@ Handlebars.registerHelper("authorsname", function(name) {
         
     }
     return data;
+
+    // return name.join(' and ');
 })
 
 /*position matters for registeringHelper*/
