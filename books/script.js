@@ -68,7 +68,7 @@ var novels=[
     {
         "novelImg":"./images/novel12.jpg",
         "title":"Harry Potter - Prisoner Of Azkaban",
-        "author": "J K Rowling",
+        "author": ["J K Rowling","Mounika Rajeev"],
         "price": "17"
     }
 ];
