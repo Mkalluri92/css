@@ -3,9 +3,9 @@
 }
 
 #weatherImageDiv{
-    margin-top: 50px;
-    width: 350px;
-    height: 350px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
 }
 
 #weatherImage {
@@ -19,7 +19,8 @@
 }
 
 #googleMap{
+    margin-top: 20px;
     margin-left: 50px;
     height: 200px;
     width: 200px;
-}
+    }

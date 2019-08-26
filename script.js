@@ -17,6 +17,7 @@
         success: function(data){
             //console.log(data);
             showImage(data.weather[0].main);
+            initMap(data.coord.lat, data.coord.lon)
             showLocation(data);
             
         },
@@ -46,4 +47,14 @@ function showLocation(data){
     '<span>Max Temperature is: '+data.main.temp_max+'</span><br />'+
     '<span>Min Temperature is: '+data.main.temp_min+'</span<<br />'
     $("#location").html(locationHtml);
+}
+
+function initMap(latitude,longitude) {
+    var map = new google.maps.Map(document.getElementById('googleMap'), {
+        zoom: 4,
+        center: {
+            lat: parseFloat(latitude), 
+            lng: parseFloat(longitude)
+        }
+      });
 }
