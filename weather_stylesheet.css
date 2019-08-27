@@ -4,14 +4,14 @@
 
 #weatherImageDiv{
     margin-top: 20px;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
 }
 
 #weatherImage {
     padding: 10px;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
 }
 
 #location{
@@ -19,8 +19,19 @@
 }
 
 #googleMap{
+    display:inline-block;
+    position:relative;
     margin-top: 20px;
     margin-left: 50px;
     height: 200px;
     width: 200px;
-    }
+}
+
+#container{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    min-width: 200px; 
+    height: 200px; 
+    margin: 0 auto
+}

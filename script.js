@@ -19,6 +19,7 @@
             showImage(data.weather[0].main);
             initMap(data.coord.lat, data.coord.lon)
             showLocation(data);
+            charts(data.name,data.main.temp);
             
         },
         error: function(data){
@@ -57,4 +58,33 @@ function initMap(latitude,longitude) {
             lng: parseFloat(longitude)
         }
       });
+}
+
+function charts(city, temperature){
+    Highcharts.chart('container', {
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: 'Weather Report'
+    },
+    xAxis:{
+        categories:[
+            city
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Temperature'
+        }
+    },
+    series: [
+        {
+            name: 'Temperature',
+            data: [temperature]
+        },
+    ]
+    }
+);
 }
